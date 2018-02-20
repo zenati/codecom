@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'codecom'
   spec.version       = Codecom::VERSION
   spec.authors       = ['Yassine Zenati']
-  spec.email         = []
+  spec.email         = ['']
   spec.summary       = %q{This gem automatically generates YARD compatible pre-documentation comments for your beloved methods.}
   spec.description   = %q{This gem automatically generates YARD compatible pre-documentation comments for your beloved methods.}
   spec.homepage      = 'https://github.com/zenati/codecom'
