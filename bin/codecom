@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby -U
+
+require 'codecom'
+Codecom::Runner.new
