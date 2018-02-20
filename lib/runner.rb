@@ -78,7 +78,7 @@ module Codecom
       process_comments
     end
 
-    def process_comments(end_with = "*.rb")
+    def process_comments(source_path = ".", end_with = "*.rb")
       Dir.glob("./#{source_path}/**/#{end_with}").each do |path|
         comments = []
         temp_file = Tempfile.new(SecureRandom.hex)
