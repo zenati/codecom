@@ -75,7 +75,7 @@ module Codecom
     end
 
     def initialize
-      process_specs
+      process_comments
     end
 
     def process_comments(end_with = "*.rb")
