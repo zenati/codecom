@@ -75,7 +75,6 @@ module Codecom
     end
 
     def initialize
-      self.configuration = YAML::load(File.read('.codecom.yml'))
       process_specs
     end
 
